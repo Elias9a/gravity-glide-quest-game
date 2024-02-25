@@ -24,5 +24,5 @@ let  platforms = [
     new PlatformBlock({x: 1200, y: 220, width: 100, height: 40, imageUrl: './img/platform.png'}),
     new PlatformBlock({x: 1500, y: 550, width: 100, height: 40, imageUrl: './img/platform.png'}),
     new PlatformBlock({x: 1800, y: 350, width: 100, height: 40, imageUrl: './img/platform.png'}),
-    new PlatformBlock({x: 2200, y: 620, width: 300, height: 40, imageUrl: './img/platform.png'})
+    new PlatformBlock({x: 2100, y: 620, width: 300, height: 40, imageUrl: './img/platform.png'})
 ]
