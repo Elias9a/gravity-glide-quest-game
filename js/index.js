@@ -3,7 +3,7 @@ const canvas = document.querySelector('canvas');
 const c = canvas.getContext("2d");
 
 canvas.width = 1250
-canvas.height = 650
+canvas.height = 670
 
 const gravity = 5.5
 
@@ -50,8 +50,9 @@ const init = () => {
         new PlatformBlock({x: 500, y: 200, width: 300, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 900, y: 100, width: 200, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 1200, y: 220, width: 100, height: 40, imageUrl: './img/platform.png'}),
-        new PlatformBlock({x: 1500, y: 350, width: 100, height: 40, imageUrl: './img/platform.png'}),
-        new PlatformBlock({x: 2000, y: 650, width: 300, height: 40, imageUrl: './img/platform.png'})
+        new PlatformBlock({x: 1500, y: 550, width: 100, height: 40, imageUrl: './img/platform.png'}),
+        new PlatformBlock({x: 1800, y: 350, width: 100, height: 40, imageUrl: './img/platform.png'}),
+        new PlatformBlock({x: 2200, y: 650, width: 300, height: 40, imageUrl: './img/platform.png'})
     ]
 }
 
