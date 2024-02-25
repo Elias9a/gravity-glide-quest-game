@@ -6,13 +6,13 @@ class Firework {
         }
       
         this.radius = 3;
-        this.color = `hsl(${Math.random() * 360}, 50%, 50%)`;
+        this.color = `hsl(${Math.random() * 360}, 50%, 50%)`
         this.velocity = {
             x: Math.random() * 6 - 3,
-            y: Math.random() * -15 - 10 // Fireworks go upwards initially
+            y: Math.random() * -15 - 10 
         };
-        this.gravity = 0.2;
-        this.life = 100; // Lifetime of the firework
+        this.gravity = 0.2
+        this.life = 100
     }
 
     update() {
