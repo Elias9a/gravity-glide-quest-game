@@ -6,17 +6,17 @@ function animation () {
         platform.draw()
     })
     fireworks.forEach((firework, index) => {
-        firework.update();
-        firework.draw();
+        firework.update()
+        firework.draw()
         if (firework.life <= 0) {
-            fireworks.splice(index, 1); // Remove fireworks after their lifetime
+            fireworks.splice(index, 1)
         }
     });
     player.update()
-
-    if (keys.right.pressed && player.position.x < 10){
+    // player movement 
+    if (keys.right.pressed && player.position.x < 150){
         player.velocity.x = 5
-    } else if ((keys.left.pressed && player.position.x >100) || (keys.left.pressed && scrollOffset === 0 && player.position.x > 0)){
+    } else if ((keys.left.pressed && player.position.x >1000) || (keys.left.pressed && scrollOffset === 0 && player.position.x > 0)){
         player.velocity.x = -5
     } else {
         player.velocity.x = 0
@@ -48,13 +48,12 @@ function animation () {
 
     // winning condition
     if (scrollOffset > 16800) {
-
-        let numberOfFireworks = 30; 
+        let numberOfFireworks = 25
 
         for (let i = 0; i < numberOfFireworks; i++) {
-            let x = Math.random() * canvas.width;
-            let y = Math.random() * canvas.height;
-            fireworks.push(new Firework(x, y));
+            let x = Math.random() * canvas.width
+            let y = Math.random() * canvas.height
+            fireworks.push(new Firework(x, y))
         }
     }
 
