@@ -44,15 +44,15 @@ const init = () => {
     
      player = new Player()
      platforms = [
-        new PlatformBlock({x: 0, y: 650, width: 300, height: 40, imageUrl:  './img/platform.png'}), 
-        new PlatformBlock({x: 400, y: 550, width: 300, height: 40, imageUrl: './img/platform.png'}), 
-        new PlatformBlock({x: 200, y: 380, width: 200, height: 40, imageUrl: './img/platform.png'}),
+        new PlatformBlock({x: 0, y: 620, width: 300, height: 40, imageUrl:  './img/platform.png'}), 
+        new PlatformBlock({x: 400, y: 520, width: 300, height: 40, imageUrl: './img/platform.png'}), 
+        new PlatformBlock({x: 200, y: 340, width: 200, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 500, y: 200, width: 300, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 900, y: 100, width: 200, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 1200, y: 220, width: 100, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 1500, y: 550, width: 100, height: 40, imageUrl: './img/platform.png'}),
         new PlatformBlock({x: 1800, y: 350, width: 100, height: 40, imageUrl: './img/platform.png'}),
-        new PlatformBlock({x: 2200, y: 650, width: 300, height: 40, imageUrl: './img/platform.png'})
+        new PlatformBlock({x: 2200, y: 620, width: 300, height: 40, imageUrl: './img/platform.png'})
     ]
 }
 
